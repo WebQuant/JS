@@ -1,0 +1,31 @@
+body {
+    font-size: 20px;
+}
+
+.container{
+    max-width: 500px;
+    max-height: 800px;
+}
+
+#result{
+    color: red;
+}
+
+#btn {
+    margin-top: 15px;
+}
+
+button {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: green;
+}
+
+input {
+    margin-bottom: 15px;
+
+}
+
+input:focus {
+    box-shadow: 0 0 4px 2px rgb(191, 222, 255);
+}

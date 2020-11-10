@@ -3,13 +3,17 @@ body {
 }
 
 .container{
+    position: relative;
+    margin: 0 auto;
     max-width: 300px;
     max-height: 800px;
     min-width: 280px;
 }
 
 .border{
+    position: relative;
     border: 6px solid #aeaeae;
+    margin: 0 auto;
 }
 
 #result{

@@ -10,12 +10,18 @@
 
 <body>
     <div class="container">
-        <span>Input a: </span><input type="text" id="inp_a"><br>
-        <span>Input b: </span><input type="text" id="inp_b"><br>
-        <span>Input c: </span><input type="text" id="inp_c"><br>
+        <div class="border">
+            <span>Input a: </span><input type="text" id="inp_a"><br>
+            <span>Input b: </span><input type="text" id="inp_b"><br>
+            <span>Input c: </span><input type="text" id="inp_c"><br>
 
-        Result: <span id="result"></span><br>
-        <button id="btn" onclick="result()">Result area of the triangle</button>
+            <div class="res_container">
+                <span class="res_p">Result: </span><span id="result"></span><br>
+            </div>
+
+            <button id="btn" onclick="result()">Result area of the triangle</button>
+
+        </div>
     </div>
 
     <script src="js/script.js"></script>

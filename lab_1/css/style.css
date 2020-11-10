@@ -24,6 +24,7 @@ body {
 #btn {
     position: relative;
     margin-top: 40px;
+    margin-bottom: 10px;
     left: 50%;
     transform: translate(-50%, 0);
 }
@@ -33,6 +34,7 @@ button {
     font-weight: 700;
     background-color: DodgerBlue;
     color: white;
+    padding: 15px;
 }
 
 span{

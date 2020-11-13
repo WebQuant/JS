@@ -61,4 +61,13 @@ input:focus {
 
 .res_x{
     margin-left: 20px;
+
+}
+
+#result_x1{
+    color: red;
+}
+
+#result_x2{
+    color: red;
 }

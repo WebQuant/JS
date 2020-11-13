@@ -32,6 +32,11 @@ function result_x() {
     c = parseInt(c);
 
     d = Math.pow(b, 2) - 4 * a * c;
+    if (d < 0) {
+        alert("discriminant less than 0");
+        return;
+    }
+
     x1 = (-(b) + Math.sqrt(d)) / (2 * a);
     x2 = (-(b) - Math.sqrt(d)) / (2 * a);
 

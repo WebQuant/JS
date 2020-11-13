@@ -14,6 +14,7 @@ body {
     position: relative;
     border: 6px solid #aeaeae;
     margin: 0 auto;
+    margin-bottom: 20px;
 }
 
 #result{
@@ -57,3 +58,4 @@ input:focus {
 .res_p{
     margin-left: 20px;
 }
+

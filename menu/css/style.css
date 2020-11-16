@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+}
+
+html > div[style] {
+    display: none !important;
+}
+
+video{
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.container{
+    position: relative;
+    margin: 0 auto;
+    max-width: 350px;
+    max-height: 800px;
+    min-width: 280px;
+    padding: 20px 0;
+    z-index: 2;
+}
+
+.linkt1-3{
+    font-size: 50px;
+    text-align: center;
+    padding: 40px;
+}
+
+.linkt1-3__item{
+    margin-bottom: 50px;
+}
+
+.linkt1-3__item:last-child{
+    margin-bottom: 0px;
+}
+
+.link{
+    padding:5px 40px;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 20px;
+    border-radius: 7px;
+    background: rgb(74,79,156);
+    background: linear-gradient(90deg, rgba(74,79,156,1) 0%, rgba(16,126,124,1) 42%, rgba(0,212,255,1) 100%);
+    margin-bottom: 40px;
+}
